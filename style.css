@@ -1,0 +1,47 @@
+/* RESET */
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+/* END RESET */
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#game-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    position: relative;
+}
+.puzzle-item {
+    width: 100px;
+    height: 100px;
+    border: 1px solid olivedrab;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: crimson;
+    color: white;
+}
